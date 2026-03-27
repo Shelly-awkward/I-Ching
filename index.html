@@ -423,7 +423,7 @@ ${changingInfo}
 請用繁體中文回答，語氣溫和但清晰，約300-500字。`;
 
             try {
-                const resp = await fetch('https://api.openai.com/v1/chat/completions', {
+                const resp = await fetch('https://yijing-proxy.shellydiligence.workers.dev', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
