@@ -141,7 +141,7 @@
 
     <script>
         // ── 在這裡填入你的 API Key ──────────────────────────────
-        const OPENAI_API_KEY = '';
+        const OPENAI_API_KEY = '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';
         // ────────────────────────────────────────────────────────
 
         class IChingDivination {
@@ -376,7 +376,7 @@
 
         async function aiInterpret() {
             if (!currentResult) return;
-            if (!OPENAI_API_KEY || OPENAI_API_KEY === '') {
+            if (!OPENAI_API_KEY || OPENAI_API_KEY === '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') {
                 alert('請先在 HTML 檔案中填入 API Key！');
                 return;
             }
