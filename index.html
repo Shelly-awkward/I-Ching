@@ -376,10 +376,7 @@
 
         async function aiInterpret() {
             if (!currentResult) return;
-            if (!OPENAI_API_KEY || OPENAI_API_KEY === 'YOUR_API_KEY_HERE') {
-                alert('請先在 HTML 檔案中填入 API Key！');
-                return;
-            }
+
 
             const btn = document.getElementById('aiBtn');
             const aiDiv = document.getElementById('aiResult');
